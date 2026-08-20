@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kora</title>
+<style>
+  :root { color-scheme: dark light; }
+  body {
+    margin: 0; padding: 0; background: #0b0c0e; color: #f2f2f3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; }
+  .mark { display: flex; flex-direction: column; gap: 6px; width: 84px; margin-bottom: 28px; }
+  .bar { height: 15px; border-radius: 8px; }
+  .bar1 { width: 100%; background: #75757c; }
+  .bar2 { width: 88%; background: #3c3c41; }
+  .bar3 { width: 74%; background: #050506; border: 1px solid rgba(255,255,255,0.08); }
+  h1 { font-size: 32px; font-weight: 800; margin: 0 0 10px; letter-spacing: -0.02em; }
+  .tagline { color: rgba(236,236,240,0.68); font-size: 17px; margin-bottom: 40px; max-width: 480px; }
+  h2 { font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: rgba(236,236,240,0.5); margin: 40px 0 14px; }
+  ul { padding-left: 20px; margin: 0; }
+  li { color: rgba(236,236,240,0.78); font-size: 15px; margin-bottom: 8px; }
+  a { color: #f2f2f3; }
+  .footer-links { margin-top: 56px; display: flex; gap: 18px; font-size: 14px; }
+  .footer-links a { color: rgba(236,236,240,0.6); text-decoration: underline; }
+  .byline { margin-top: 10px; font-size: 12.5px; color: rgba(236,236,240,0.35); }
+  @media (prefers-color-scheme: light) {
+    body { background: #fff; color: #16181b; }
+    .tagline, li { color: rgba(22,24,27,0.68); }
+    h2 { color: rgba(22,24,27,0.45); }
+    a { color: #16181b; }
+    .footer-links a { color: rgba(22,24,27,0.55); }
+    .byline { color: rgba(22,24,27,0.35); }
+    .bar3 { border-color: rgba(0,0,0,0.1); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mark">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+  </div>
+
+  <h1>Kora</h1>
+  <p class="tagline">
+    La app de gestión para fotógrafos y videógrafos independientes — clientes, contenido,
+    agenda y finanzas en un solo lugar.
+  </p>
+
+  <h2>Qué hace</h2>
+  <ul>
+    <li>Lleva la cuenta de tus clientes, sus planes y sus pagos.</li>
+    <li>Sigue cada entregable en producción, de grabación a entrega.</li>
+    <li>Programa tu agenda y sincronízala con Google Calendar.</li>
+    <li>Registra ingresos y egresos, y revisa tus finanzas mes a mes.</li>
+  </ul>
+
+  <div class="footer-links">
+    <a href="./privacy.html">Política de Privacidad</a>
+    <a href="./terms.html">Términos de Servicio</a>
+  </div>
+  <p class="byline">Kora — by NickFilm</p>
+</div>
+</body>
+</html>
